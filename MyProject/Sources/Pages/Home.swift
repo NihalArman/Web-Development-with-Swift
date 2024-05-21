@@ -30,5 +30,30 @@ struct Home: StaticPage {
             .font(.title1)
             .background(.blanchedAlmond)
             .horizontalAlignment(.center)
+
+        Text("Party Details")
+            .font(.title2)
+
+        Accordion {
+            Item("Guests") {
+                Text("Andy")
+                Text("Taneli")
+                Text("Matti")
+                Text("Henrik")
+            }
+
+            Item("Foods") {
+                Text("Cake")
+                Text("Pie")
+                Text("Bread")
+                Text("Coffee")
+            }
+
+            Item("Things to Do") {
+                Text("Talk about Swift, how mighty it is")
+                Text("Rant about everything,e.g government, life, oxygen and what not")
+            }
+        }
+        .openMode(.individual)
     }
 }
