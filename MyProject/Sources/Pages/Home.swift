@@ -10,12 +10,25 @@ struct Home: StaticPage {
 
             Dropdown("Click for memes") {
                 Link("This is fine", target: "https://giphy.com/gifs/ihNCM8wOSzh6ktwoyY/fullscreen")
-                Link("Shiba Inu", target: "https://giphy.com/gifs/wow-doge-fractal-oBQZIgNobc7ewVWvCd/fullscreen")
+                Link("Shiba Inu", target: "https://giphy//.com/gifs/wow-doge-fractal-oBQZIgNobc7ewVWvCd/fullscreen")
             }
         }
         .navigationItemAlignment(.trailing)
         .navigationBarStyle(.light)
         .background(.aquamarine)
         .position(.fixedTop)
+
+        Divider()
+        Divider()
+        Divider()
+        Divider()
+        Divider()
+        Divider()
+        Divider()
+
+        Text("Welcome to the party")
+            .font(.title1)
+            .background(.blanchedAlmond)
+            .horizontalAlignment(.center)
     }
 }
