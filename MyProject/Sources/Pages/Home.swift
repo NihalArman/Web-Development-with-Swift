@@ -5,7 +5,17 @@ struct Home: StaticPage {
     var title = "Home Page"
 
     func body(context: PublishingContext) -> [BlockElement] {
-        Text("Welcome to the Party")
-            .font(.title1)
+        // Nav Bar
+        NavigationBar(logo: Image("/images/meme2.svg", description: "example logo").frame(width: "min(60vw, 100px)", height: "50%")) {
+
+            Dropdown("Click for memes") {
+                Link("This is fine", target: "https://giphy.com/gifs/ihNCM8wOSzh6ktwoyY/fullscreen")
+                Link("Shiba Inu", target: "https://giphy.com/gifs/wow-doge-fractal-oBQZIgNobc7ewVWvCd/fullscreen")
+            }
+        }
+        .navigationItemAlignment(.trailing)
+        .navigationBarStyle(.light)
+        .background(.aquamarine)
+        .position(.fixedTop)
     }
 }
