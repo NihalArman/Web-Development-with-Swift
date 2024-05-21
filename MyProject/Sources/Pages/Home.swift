@@ -6,7 +6,7 @@ struct Home: StaticPage {
 
     func body(context: PublishingContext) -> [BlockElement] {
         // Nav Bar
-        NavigationBar(logo: Image("/images/meme2.svg", description: "example logo").frame(width: "min(60vw, 100px)", height: "50%")) {
+        NavigationBar(logo: Image("/images/memelogo.svg", description: "example logo").frame(width: "min(60vw, 100px)", height: "50%")) {
 
             Dropdown("Click for memes") {
                 Link("This is fine", target: "https://giphy.com/gifs/ihNCM8wOSzh6ktwoyY/fullscreen")
