@@ -2,10 +2,10 @@ import Foundation
 import Ignite
 
 struct Home: StaticPage {
-    var title = "Home"
+    var title = "Home Page"
 
     func body(context: PublishingContext) -> [BlockElement] {
-        Text("Hello world!")
+        Text("Home page loaded successfully")
             .font(.title1)
     }
 }
