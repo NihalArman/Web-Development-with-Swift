@@ -17,7 +17,7 @@ struct MainPage {
 struct HomePage: Site {
     var name = "Default Name"
     var baseTitle = "Default Title"
-    var url = URL("https://github.com/NihalArman/Web-Development-with-Swift")
+    var url = URL("https://www.example.com")
     var builtInIconsEnabled = true
 
     var author = "Arman Nihal"
