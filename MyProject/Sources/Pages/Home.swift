@@ -6,5 +6,6 @@ struct Home: StaticPage {
 
     func body(context: PublishingContext) -> [BlockElement] {
         Text("Welcome to the Party")
+            .font(.title1)
     }
 }
