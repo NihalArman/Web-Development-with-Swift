@@ -2,9 +2,9 @@ import Foundation
 import Ignite
 
 @main
-struct IgniteWebsite {
+struct MainPage {
     static func main() async {
-        let site = ExampleSite()
+        let site = HomePage()
 
         do {
             try await site.publish()
@@ -14,7 +14,7 @@ struct IgniteWebsite {
     }
 }
 
-struct ExampleSite: Site {    
+struct HomePage: Site {
     var name = "Default Name"
     var baseTitle = "Default Title"
     var url = URL("https://github.com/NihalArman/Web-Development-with-Swift")

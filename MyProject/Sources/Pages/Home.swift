@@ -5,7 +5,6 @@ struct Home: StaticPage {
     var title = "Home Page"
 
     func body(context: PublishingContext) -> [BlockElement] {
-        Text("Home page loaded successfully")
-            .font(.title1)
+        Text("Welcome to the Party")
     }
 }
