@@ -10,7 +10,7 @@ struct Home: StaticPage {
 
             Dropdown("Click for memes") {
                 Link("This is fine", target: "https://giphy.com/gifs/ihNCM8wOSzh6ktwoyY/fullscreen")
-                Link("Shiba Inu", target: "https://giphy//.com/gifs/wow-doge-fractal-oBQZIgNobc7ewVWvCd/fullscreen")
+                Link("Shiba Inu", target: "https://giphy.com/gifs/DogeBONK-bonk-dobo-dogebonk-qs4ll1FSxKnNHeSmom/fullscreen")
             }
         }
         .navigationItemAlignment(.trailing)
